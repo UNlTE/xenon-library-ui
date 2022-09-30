@@ -1,3 +1,5 @@
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/UNlTE/xenon-library-ui/main/main.lua"))()
+
 local xenon = library:new({name = "Xenon V2",accent = Color3.fromRGB(105, 67, 255),key = "P"})
 -- pages
 local aimbot = xenon:page({name = "aimbot"})
